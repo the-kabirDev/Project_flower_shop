@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bengal-Bouquet</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <nav class="bg-[#fff] drop-shadow-xl">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center py-4">
+        <div>
+          <a class="text-black text-3xl font-bold" href="#">Flower<span class="text-red-600">.</span></a>
+        </div>
+        
+          <ul class="flex text-gray-500 text-2xl">
+            <li><a class="p-3 hover:border-b-4 hover:border-blue-800" href="#">Home</a></li>
+            <li><a class="p-3 hover:border-b-4 hover:border-blue-800" href="#">About</a></li>
+            <li><a class="p-3 hover:border-b-4 hover:border-blue-800" href="#">Products</a></li>
+            <li><a class="p-3 hover:border-b-4 hover:border-blue-800" href="#">Contacts</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<section style="min-height: 100vh; background-image: url(/images/home-bg.jpg); no-repeat; background-size: cover; background-position: center;">
+  <div class="w-6/12 p-20">
+    <h2 class="font-bold text-6xl ml-12 my-6 tracking-widest leading-tight">Let's make <br>
+      beautiful <br> flowers a <br>
+      part of your <br> life.</h2>
+    <p class="font-extralight text-base ml-12">It is a long established fact that a reader will be distracted by the readable
+      content of a page when looking at its layout. The point of using Lorem Ipsum is
+      that it has a more-or-less normal distribution of letters.
+    </p>
+    <button class="bg-black text-white text-xl ml-12 mt-6 px-5 py-3 rounded-full hover:bg-green-600">Shop Now</button>
+</div>
+</section>
+
+</body>
+</html>
